@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datenschutzerklärung – Early Music Hamburg</title>
+  <style>
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      src: url('cormorant-garamond-v21-latin-300.woff2') format('woff2');
+      font-weight: 300; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      src: url('cormorant-garamond-v21-latin-regular.woff2') format('woff2');
+      font-weight: 400; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Outfit';
+      src: url('outfit-v15-latin-300.woff2') format('woff2');
+      font-weight: 300; font-style: normal; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Outfit';
+      src: url('outfit-v15-latin-regular.woff2') format('woff2');
+      font-weight: 400; font-style: normal; font-display: swap;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #F7F4EF;
+      --bg-card:     #FDFBF8;
+      --text:        #2C2416;
+      --text-muted:  #7A6E5F;
+      --accent:      #A87820;
+      --border:      #DDD5C0;
+      --serif:       'Cormorant Garamond', Georgia, serif;
+      --sans:        'Outfit', system-ui, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    header {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 1.8rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .site-title {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(1.7rem, 4vw, 2.3rem);
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .site-subtitle {
+      display: block;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 2rem 5rem;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 1.25rem;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    h3 {
+      font-family: var(--sans);
+      font-weight: 400;
+      font-size: 0.95rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    p { margin-bottom: 0.75rem; font-size: 0.93rem; }
+
+    ul {
+      margin: 0.5rem 0 0.75rem 1.5rem;
+      font-size: 0.93rem;
+    }
+
+    ul li { margin-bottom: 0.4rem; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .index-list {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .index-list li { margin-bottom: 0.3rem; }
+    .index-list a { font-size: 0.88rem; }
+
+    .seal {
+      margin-top: 2rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    footer {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.4rem 2rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    footer a { color: var(--text-muted); }
+    footer a:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="site-title" href="index.html">
+    Early Music Hamburg
+    <span class="site-subtitle">Konzerte &amp; Veranstaltungen · Alte Musik</span>
+  </a>
+</header>
+
+<main>
+  <a class="back-link" href="index.html">← Zurück zum Kalender</a>
+
+  <h1>Datenschutzerklärung</h1>
+
+  <h2 id="m716">Präambel</h2>
+  <p>Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als „Daten" bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten (nachfolgend zusammenfassend bezeichnet als „Onlineangebot").</p>
+  <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
+  <p>Stand: 11. Mai 2026</p>
+
+  <div class="index-list">
+    <h3>Inhaltsübersicht</h3>
+    <ul class="index-list">
+      <li><a href="#m3">Verantwortlicher</a></li>
+      <li><a href="#mOverview">Übersicht der Verarbeitungen</a></li>
+      <li><a href="#m2427">Maßgebliche Rechtsgrundlagen</a></li>
+      <li><a href="#m27">Sicherheitsmaßnahmen</a></li>
+      <li><a href="#m25">Übermittlung von personenbezogenen Daten</a></li>
+      <li><a href="#m24">Internationale Datentransfers</a></li>
+      <li><a href="#m12">Allgemeine Informationen zur Datenspeicherung und Löschung</a></li>
+      <li><a href="#m10">Rechte der betroffenen Personen</a></li>
+      <li><a href="#m225">Bereitstellung des Onlineangebots und Webhosting</a></li>
+      <li><a href="#m15">Änderung und Aktualisierung</a></li>
+      <li><a href="#m42">Begriffsdefinitionen</a></li>
+    </ul>
+  </div>
+
+  <h2 id="m3">Verantwortlicher</h2>
+  <p>
+    Alexandra Thea Feld<br>
+    Eckmannsweg 6<br>
+    22307 Hamburg
+  </p>
+  <p>E-Mail-Adresse: <a href="mailto:alex.thea.feld@posteo.de">alex.thea.feld@posteo.de</a></p>
+
+  <h2 id="mOverview">Übersicht der Verarbeitungen</h2>
+  <p>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.</p>
+  <h3>Arten der verarbeiteten Daten</h3>
+  <ul>
+    <li>Kontaktdaten.</li>
+    <li>Nutzungsdaten.</li>
+    <li>Meta-, Kommunikations- und Verfahrensdaten.</li>
+    <li>Protokolldaten.</li>
+  </ul>
+  <h3>Kategorien betroffener Personen</h3>
+  <ul>
+    <li>Nutzer.</li>
+  </ul>
+  <h3>Zwecke der Verarbeitung</h3>
+  <ul>
+    <li>Sicherheitsmaßnahmen.</li>
+    <li>Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.</li>
+    <li>Informationstechnische Infrastruktur.</li>
+  </ul>
+
+  <h2 id="m2427">Maßgebliche Rechtsgrundlagen</h2>
+  <p><strong>Maßgebliche Rechtsgrundlagen nach der DSGVO:</strong> Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten.</p>
+  <ul>
+    <li><strong>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)</strong> – die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten notwendig, vorausgesetzt, dass die Interessen, Grundrechte und Grundfreiheiten der betroffenen Person nicht überwiegen.</li>
+  </ul>
+  <p><strong>Nationale Datenschutzregelungen in Deutschland:</strong> Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum Datenschutz in Deutschland, insbesondere das Bundesdatenschutzgesetz (BDSG).</p>
+
+  <h2 id="m27">Sicherheitsmaßnahmen</h2>
+  <p>Wir treffen nach Maßgabe der gesetzlichen Vorgaben geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.</p>
+  <p>Sicherung von Online-Verbindungen durch TLS-/SSL-Verschlüsselung (HTTPS): Unsere Website ist durch ein SSL-/TLS-Zertifikat gesichert, erkennbar am HTTPS in der URL.</p>
+
+  <h2 id="m25">Übermittlung von personenbezogenen Daten</h2>
+  <p>Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass diese an andere Stellen übermittelt werden. Zu den Empfängern gehören IT-Dienstleister (Webhoster). In solchen Fällen beachten wir die gesetzlichen Vorgaben.</p>
+
+  <h2 id="m24">Internationale Datentransfers</h2>
+  <p>Sofern wir Daten in ein Drittland übermitteln, erfolgt dies stets im Einklang mit den gesetzlichen Vorgaben. Für Datenübermittlungen in die USA stützen wir uns auf das Data Privacy Framework (DPF), anerkannt durch Angemessenheitsbeschluss der EU-Kommission vom 10.07.2023. Weitere Informationen finden Sie unter <a href="https://www.dataprivacyframework.gov/" target="_blank" rel="noopener">dataprivacyframework.gov</a>.</p>
+
+  <h2 id="m12">Allgemeine Informationen zur Datenspeicherung und Löschung</h2>
+  <p>Wir löschen personenbezogene Daten gemäß den gesetzlichen Bestimmungen, sobald keine weiteren rechtlichen Grundlagen für die Verarbeitung bestehen. Ausnahmen bestehen, wenn gesetzliche Pflichten eine längere Aufbewahrung erfordern.</p>
+
+  <h2 id="m10">Rechte der betroffenen Personen</h2>
+  <p>Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu (Art. 15–21 DSGVO):</p>
+  <ul>
+    <li><strong>Widerspruchsrecht:</strong> Sie haben das Recht, jederzeit gegen die Verarbeitung Ihrer personenbezogenen Daten Widerspruch einzulegen.</li>
+    <li><strong>Auskunftsrecht:</strong> Sie haben das Recht zu erfahren, ob und welche Daten wir über Sie verarbeiten.</li>
+    <li><strong>Recht auf Berichtigung:</strong> Sie haben das Recht, die Berichtigung unrichtiger Daten zu verlangen.</li>
+    <li><strong>Recht auf Löschung:</strong> Sie haben das Recht, die Löschung Ihrer Daten zu verlangen.</li>
+    <li><strong>Recht auf Datenübertragbarkeit:</strong> Sie haben das Recht, Ihre Daten in einem maschinenlesbaren Format zu erhalten.</li>
+    <li><strong>Beschwerde bei Aufsichtsbehörde:</strong> Sie haben das Recht auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde.</li>
+  </ul>
+
+  <h2 id="m225">Bereitstellung des Onlineangebots und Webhosting</h2>
+  <p>Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu können. Zu diesem Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um die Inhalte an den Browser des Nutzers zu übermitteln.</p>
+  <ul>
+    <li><strong>Webhoster:</strong> Netlify, Inc., 44 Montgomery Street, Suite 300, San Francisco, CA 94104, USA. Netlify ist nach dem Data Privacy Framework zertifiziert. Weitere Informationen: <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">netlify.com/privacy</a>.</li>
+    <li><strong>Datenquelle:</strong> Die Veranstaltungsdaten werden über Google Sheets (Google LLC, USA) bereitgestellt. Beim Laden der Seite wird eine Verbindung zu den Servern von Google hergestellt. Google ist nach dem Data Privacy Framework zertifiziert. Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
+    <li><strong>Erhebung von Zugriffsdaten und Logfiles:</strong> Der Zugriff auf unser Onlineangebot wird in Form von Server-Logfiles protokolliert (IP-Adressen, Browsertyp, Betriebssystem, Abrufzeiten). Logfile-Informationen werden für maximal 30 Tage gespeichert und danach gelöscht.</li>
+    <li><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).</li>
+  </ul>
+
+  <h2 id="m15">Änderung und Aktualisierung</h2>
+  <p>Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren. Wir passen die Datenschutzerklärung an, sobald Änderungen der von uns durchgeführten Datenverarbeitungen dies erforderlich machen.</p>
+
+  <h2 id="m42">Begriffsdefinitionen</h2>
+  <ul>
+    <li><strong>Personenbezogene Daten:</strong> Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.</li>
+    <li><strong>Verarbeitung:</strong> Jeder Vorgang im Zusammenhang mit personenbezogenen Daten (Erheben, Speichern, Übermitteln, Löschen etc.).</li>
+    <li><strong>Verantwortlicher:</strong> Die natürliche oder juristische Person, die über die Zwecke und Mittel der Verarbeitung personenbezogener Daten entscheidet.</li>
+    <li><strong>Nutzungsdaten:</strong> Daten, die erfassen, wie Nutzer mit dem Onlineangebot interagieren (z. B. Seitenaufrufe, IP-Adressen, Geräteinformationen).</li>
+    <li><strong>Protokolldaten:</strong> Informationen über Ereignisse oder Aktivitäten, die in einem System protokolliert wurden (Zeitstempel, IP-Adressen, Fehlermeldungen).</li>
+  </ul>
+
+  <p class="seal">Erstellt mit kostenlosem <a href="https://datenschutz-generator.de/" target="_blank" rel="noopener noreferrer nofollow">Datenschutz-Generator.de von Dr. Thomas Schwenke</a>, angepasst für Early Music Hamburg.</p>
+
+</main>
+
+<footer>
+  <span>Early Music Hamburg · Alte Musik in Hamburg</span>
+  <span>
+    <a href="impressum.html">Impressum</a> ·
+    <a href="datenschutz.html">Datenschutz</a> ·
+    <a href="mailto:hello@earlymusic-hamburg.de">hello@earlymusic-hamburg.de</a>
+  </span>
+</footer>
+
+</body>
+</html>

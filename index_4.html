@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Early Music Hamburg – Konzerte &amp; Veranstaltungen | Alte Musik in Hamburg</title>
+  <meta name="description" content="Alle Konzerte und Veranstaltungen für Alte Musik in Hamburg. Early Music Hamburg versammelt Ensembles, Interpreten und Spielorte der Renaissance- und Barockmusik.">
+  <meta property="og:title" content="Early Music Hamburg – Konzerte &amp; Events">
+  <meta property="og:description" content="Alle Konzerte für Alte Musik in Hamburg – Renaissance, Barock, historische Aufführungspraxis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://earlymusic-hamburg.de">
+
+  <style>
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      src: url('cormorant-garamond-v21-latin-300.woff2') format('woff2');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      src: url('cormorant-garamond-v21-latin-300italic.woff2') format('woff2');
+      font-weight: 300;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      src: url('cormorant-garamond-v21-latin-regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      src: url('cormorant-garamond-v21-latin-italic.woff2') format('woff2');
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      src: url('cormorant-garamond-v21-latin-500.woff2') format('woff2');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Outfit';
+      src: url('outfit-v15-latin-300.woff2') format('woff2');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Outfit';
+      src: url('outfit-v15-latin-regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Outfit';
+      src: url('outfit-v15-latin-500.woff2') format('woff2');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:          #F7F4EF;
+      --bg-card:     #FDFBF8;
+      --text:        #2C2416;
+      --text-muted:  #7A6E5F;
+      --accent:      #A87820;
+      --accent-pale: #EFE5C8;
+      --border:      #DDD5C0;
+      --serif:       'Cormorant Garamond', Georgia, serif;
+      --sans:        'Outfit', system-ui, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ─────────────────────────────────── */
+    header {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 1.8rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 1rem;
+    }
+
+    .site-title {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(1.7rem, 4vw, 2.3rem);
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+    }
+
+    .site-subtitle {
+      display: block;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+    }
+
+    .lang-toggle {
+      display: flex;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .lang-toggle button {
+      background: none;
+      border: none;
+      padding: 0.35rem 0.75rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .lang-toggle button.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* ── FILTER BAR ──────────────────────────────── */
+    .filter-bar {
+      max-width: 860px;
+      margin: 1.8rem auto 0;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .filter-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 0.3rem 0.85rem;
+      font-family: var(--sans);
+      font-size: 0.82rem;
+      font-weight: 300;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s, color 0.15s;
+    }
+
+    .filter-btn:hover  { border-color: var(--accent); color: var(--text); }
+    .filter-btn.active { border-color: var(--accent); background: var(--accent-pale); color: var(--text); }
+
+    /* ── MAIN ────────────────────────────────────── */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 5rem;
+    }
+
+    /* ── MONTH GROUP ─────────────────────────────── */
+    .month-group { margin-bottom: 2.8rem; }
+
+    .month-heading {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: 1.45rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0.2rem;
+    }
+
+    /* ── CONCERT CARD ────────────────────────────── */
+    .concert-card {
+      display: grid;
+      grid-template-columns: 3.4rem 1fr;
+      gap: 0 1.2rem;
+      padding: 1.1rem 0.6rem;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      color: inherit;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+
+    a.concert-card:hover {
+      background: var(--accent-pale);
+    }
+
+    .date-box {
+      text-align: center;
+      padding-top: 0.15rem;
+    }
+
+    .date-day {
+      font-family: var(--serif);
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 1;
+      color: var(--accent);
+    }
+
+    .date-weekday,
+    .date-month {
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .concert-time {
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.15rem;
+    }
+
+    .concert-title {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.25;
+      margin-bottom: 0.2rem;
+    }
+
+    .concert-ensemble {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .concert-venue {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .concert-venue::before {
+      content: '↗';
+      color: var(--accent);
+      font-size: 0.7rem;
+    }
+
+    .concert-description {
+      font-size: 0.83rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 0.5rem;
+      line-height: 1.5;
+    }
+
+    /* ── EMPTY / LOADING ─────────────────────────── */
+    .state-msg {
+      padding: 4rem 0;
+      text-align: center;
+      font-family: var(--serif);
+      font-size: 1.25rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    /* ── SUBMIT CTA ──────────────────────────────── */
+    .submit-section {
+      margin-top: 3rem;
+      padding-top: 2.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .submit-section p {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      font-weight: 300;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .submit-link {
+      display: inline-block;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 0.55rem 1.5rem;
+      border-radius: 3px;
+      text-decoration: none;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .submit-link:hover { background: var(--accent); color: #fff; }
+
+    /* ── ABOUT STRIP ─────────────────────────────── */
+    .about-strip {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 2rem;
+    }
+
+    .about-strip p {
+      max-width: 60ch;
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+
+    .about-strip p strong {
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    /* ── FOOTER ──────────────────────────────────── */
+    footer {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.4rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    footer a { color: var(--text-muted); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 580px) {
+      header { flex-direction: column; align-items: flex-start; }
+      .concert-card { grid-template-columns: 2.8rem 1fr; gap: 0 0.9rem; }
+      .date-day { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 class="site-title">
+    Early Music Hamburg
+    <span class="site-subtitle" id="ui-subtitle">Konzerte &amp; Veranstaltungen · Alte Musik</span>
+  </h1>
+  <div class="lang-toggle" role="group" aria-label="Sprache / Language">
+    <button id="btn-de" class="active" onclick="setLang('de')">DE</button>
+    <button id="btn-en"               onclick="setLang('en')">EN</button>
+  </div>
+</header>
+
+<nav class="filter-bar" aria-label="Filter">
+  <span class="filter-label" id="ui-filter-label">Zeitraum:</span>
+  <button class="filter-btn active" id="filter-upcoming" onclick="setFilter('upcoming')">Kommende</button>
+  <button class="filter-btn"        id="filter-all"      onclick="setFilter('all')">Alle</button>
+</nav>
+
+<main>
+  <div id="loading" class="state-msg">Veranstaltungen werden geladen …</div>
+  <div id="calendar" style="display:none;"></div>
+</main>
+
+<div class="about-strip" id="about-strip">
+  <p id="ui-about">
+    <strong>Early Music Hamburg</strong> versammelt Konzerte und Veranstaltungen für
+    Alte Musik in Hamburg — Renaissance, Barock, historische Aufführungspraxis.
+    Ein Kalender für die Szene, von der Szene.
+  </p>
+</div>
+
+<footer>
+  <span>Early Music Hamburg · Alte Musik in Hamburg</span>
+  <a href="mailto:hello@earlymusic-hamburg.de">hello@earlymusic-hamburg.de</a>
+</footer>
+
+<script>
+/* ── CONFIGURATION ───────────────────────────────────────────────────── */
+// Füge hier die CSV-URL aus Google Sheets ein (Datei → Im Web veröffentlichen → CSV)
+const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQr46JT74Pg6LFvcIh3c9rxE11Sk9a6iqV6482Fj1vPOuHIXGN2zVq41clxIhjv4Z8P0HnhxKRm-ewY/pub?output=csv';
+
+/* ── TRANSLATIONS ────────────────────────────────────────────────────── */
+const T = {
+  de: {
+    subtitle:     'Konzerte &amp; Veranstaltungen · Alte Musik',
+    filterLabel:  'Zeitraum:',
+    upcoming:     'Kommende',
+    all:          'Alle',
+    loading:      'Veranstaltungen werden geladen …',
+    empty:        'Keine Veranstaltungen gefunden.',
+    error:        'Fehler beim Laden. Bitte später versuchen.',
+    submitText:   'Ihr Konzert fehlt? Termin mitteilen.',
+    submitBtn:    'Termin eintragen',
+    about:        '<strong>Early Music Hamburg</strong> informiert über Konzerte und Veranstaltungen für Alte Musik in Hamburg — Renaissance, Barock, historische Aufführungspraxis. Ein Kalender für die Szene, von der Szene.',
+    months:       ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'],
+    monthsShort:  ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'],
+    days:         ['So','Mo','Di','Mi','Do','Fr','Sa'],
+    oclock:       'Uhr',
+  },
+  en: {
+    subtitle:     'Concerts &amp; Events · Early Music',
+    filterLabel:  'Period:',
+    upcoming:     'Upcoming',
+    all:          'All',
+    loading:      'Loading events…',
+    empty:        'No events found.',
+    error:        'Could not load events. Please try again later.',
+    submitText:   'Is your concert missing? Share your date.',
+    submitBtn:    'Submit an event',
+    about:        '<strong>Early Music Hamburg</strong> provides information on concerts and events for early music in Hamburg — Renaissance, Baroque, historically informed performance. A calendar for the scene, by the scene.',
+    months:       ['January','February','March','April','May','June','July','August','September','October','November','December'],
+    monthsShort:  ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+    days:         ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
+    oclock:       '',
+  },
+};
+
+/* ── STATE ───────────────────────────────────────────────────────────── */
+let lang   = 'de';
+let filter = 'upcoming';
+let events = [];
+
+/* ── LANG / FILTER ───────────────────────────────────────────────────── */
+function setLang(l) {
+  lang = l;
+  document.getElementById('btn-de').classList.toggle('active', l === 'de');
+  document.getElementById('btn-en').classList.toggle('active', l === 'en');
+  document.documentElement.lang = l;
+  const t = T[l];
+  document.getElementById('ui-subtitle').innerHTML     = t.subtitle;
+  document.getElementById('ui-filter-label').textContent = t.filterLabel;
+  document.getElementById('filter-upcoming').textContent = t.upcoming;
+  document.getElementById('filter-all').textContent      = t.all;
+  document.getElementById('ui-about').innerHTML          = t.about;
+  renderCalendar();
+}
+
+function setFilter(f) {
+  filter = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('filter-' + f).classList.add('active');
+  renderCalendar();
+}
+
+/* ── CSV PARSING ─────────────────────────────────────────────────────── */
+function parseCSV(text) {
+  const lines = text.replace(/\r/g, '').split('\n');
+  const result = [];
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line) continue;
+    const cols = splitCSVLine(line);
+    if (!cols[0]) continue;
+    result.push({
+      datum:        (cols[0] || '').trim(),
+      uhrzeit:      (cols[1] || '').trim(),
+      titel:        (cols[2] || '').trim(),
+      ensemble:     (cols[3] || '').trim(),
+      ort:          (cols[4] || '').trim(),
+      adresse:      (cols[5] || '').trim(),
+      link:         (cols[6] || '').trim(),
+      beschreibung: (cols[7] || '').trim(),
+    });
+  }
+  return result;
+}
+
+function splitCSVLine(line) {
+  const cols = [];
+  let cur = '', inQ = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      if (inQ && line[i+1] === '"') { cur += '"'; i++; }
+      else inQ = !inQ;
+    } else if (ch === ',' && !inQ) {
+      cols.push(cur); cur = '';
+    } else {
+      cur += ch;
+    }
+  }
+  cols.push(cur);
+  return cols;
+}
+
+/* ── DATE PARSING ────────────────────────────────────────────────────── */
+function parseDate(str) {
+  if (!str) return null;
+  str = str.trim();
+  // DD.MM.YYYY
+  if (/^\d{1,2}\.\d{1,2}\.\d{4}$/.test(str)) {
+    const [d, m, y] = str.split('.');
+    return new Date(+y, +m - 1, +d);
+  }
+  // YYYY-MM-DD
+  if (/^\d{4}-\d{2}-\d{2}$/.test(str)) {
+    const [y, m, d] = str.split('-');
+    return new Date(+y, +m - 1, +d);
+  }
+  return null;
+}
+
+/* ── SCHEMA.ORG ──────────────────────────────────────────────────────── */
+function buildSchema(e, dateObj) {
+  const pad = n => String(n).padStart(2, '0');
+  const dateStr = `${dateObj.getFullYear()}-${pad(dateObj.getMonth()+1)}-${pad(dateObj.getDate())}`;
+  const obj = {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: e.titel,
+    startDate: e.uhrzeit ? `${dateStr}T${e.uhrzeit}:00` : dateStr,
+    eventStatus: 'https://schema.org/EventScheduled',
+    location: { '@type': 'Place', name: e.ort, address: e.adresse },
+  };
+  if (e.ensemble) obj.performer = { '@type': 'PerformingGroup', name: e.ensemble };
+  if (e.beschreibung) obj.description = e.beschreibung;
+  if (e.link) obj.url = e.link;
+  return obj;
+}
+
+function injectSchema(events) {
+  document.querySelectorAll('script[data-emh-schema]').forEach(s => s.remove());
+  events.forEach(e => {
+    const d = parseDate(e.datum);
+    if (!d || !e.titel) return;
+    const s = document.createElement('script');
+    s.type = 'application/ld+json';
+    s.dataset.emhSchema = '1';
+    s.textContent = JSON.stringify(buildSchema(e, d));
+    document.head.appendChild(s);
+  });
+}
+
+/* ── RENDER ──────────────────────────────────────────────────────────── */
+function renderCalendar() {
+  const container = document.getElementById('calendar');
+  const t = T[lang];
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  let list = events
+    .map(e => ({ ...e, dateObj: parseDate(e.datum) }))
+    .filter(e => e.dateObj);
+
+  if (filter === 'upcoming') list = list.filter(e => e.dateObj >= today);
+  list.sort((a, b) => a.dateObj - b.dateObj);
+
+  injectSchema(list);
+
+  if (list.length === 0) {
+    container.innerHTML = `<div class="state-msg">${t.empty}</div>` + submitHTML(t);
+    return;
+  }
+
+  // Group by month
+  const groups = {};
+  list.forEach(e => {
+    const key = `${e.dateObj.getFullYear()}-${e.dateObj.getMonth()}`;
+    if (!groups[key]) groups[key] = { y: e.dateObj.getFullYear(), m: e.dateObj.getMonth(), list: [] };
+    groups[key].list.push(e);
+  });
+
+  let html = '';
+  Object.values(groups).forEach(g => {
+    html += `<div class="month-group">
+      <h2 class="month-heading">${t.months[g.m]} ${g.y}</h2>`;
+    g.list.forEach(e => {
+      const d  = e.dateObj;
+      const dd = d.getDate();
+      const ms = t.monthsShort[d.getMonth()];
+      const wd = t.days[d.getDay()];
+      const timeStr = e.uhrzeit ? `${e.uhrzeit}${t.oclock ? ' ' + t.oclock : ''}` : '';
+      const tag  = e.link ? 'a' : 'div';
+      const href = e.link ? ` href="${escHtml(e.link)}" target="_blank" rel="noopener noreferrer"` : '';
+      html += `<${tag} class="concert-card"${href}>
+        <div class="date-box">
+          <div class="date-day">${dd}</div>
+          <div class="date-weekday">${wd}</div>
+          <div class="date-month">${ms}</div>
+        </div>
+        <div class="concert-info">
+          ${timeStr ? `<div class="concert-time">${escHtml(timeStr)}</div>` : ''}
+          <div class="concert-title">${escHtml(e.titel)}</div>
+          ${e.ensemble ? `<div class="concert-ensemble">${escHtml(e.ensemble)}</div>` : ''}
+          ${e.ort ? `<div class="concert-venue">${escHtml(e.ort)}</div>` : ''}
+          ${e.beschreibung ? `<div class="concert-description">${escHtml(e.beschreibung)}</div>` : ''}
+        </div>
+      </${tag}>`;
+    });
+    html += '</div>';
+  });
+
+  html += submitHTML(t);
+  container.innerHTML = html;
+}
+
+function submitHTML(t) {
+  return `<div class="submit-section">
+    <p>${t.submitText}</p>
+    <a class="submit-link" href="mailto:hello@earlymusic-hamburg.de">${t.submitBtn}</a>
+  </div>`;
+}
+
+function escHtml(s) {
+  return String(s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ── LOAD ────────────────────────────────────────────────────────────── */
+async function loadEvents() {
+  const loading = document.getElementById('loading');
+  const calendar = document.getElementById('calendar');
+  try {
+    const resp = await fetch(SHEET_CSV_URL);
+    if (!resp.ok) throw new Error('Network response was not ok');
+    const text = await resp.text();
+    events = parseCSV(text);
+    loading.style.display  = 'none';
+    calendar.style.display = 'block';
+    renderCalendar();
+  } catch (err) {
+    loading.textContent = T[lang].error;
+    console.error('EMH: Could not load events:', err);
+  }
+}
+
+loadEvents();
+</script>
+</body>
+</html>

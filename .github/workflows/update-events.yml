@@ -1,0 +1,29 @@
+name: Update Events
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # täglich um 03:00 UTC
+  workflow_dispatch:       # manuell auslösbar
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Konzertdaten holen
+        run: python fetch_events.py
+
+      - name: events.json committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json
+          git diff --staged --quiet || git commit -m "Update events.json"
+          git push

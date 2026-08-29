@@ -363,6 +363,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "30.08.2026",
+    "uhrzeit": "17:00",
+    "titel": "Liederabend mit Barbara Rohlfs und Ulf Dressler",
+    "ensemble": "Barbara Rohlfs (Mezzosopran), Ulf Dressler (Laute)",
+    "ort": "Gemeindehaus der Kreuzkirche, Henstedt-Ulzburg",
+    "adresse": "Hamburger Straße 30, 24558 Henstedt-Ulzburg",
+    "link": "https://www.kirchenmusik-nordkirche.de/veranstaltungs-detail?tx_nkcevent_main%5Buid%5D=1468951&cHash=0d4aaf010dc3f200fee2604f4721b487",
+    "beschreibung": "",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "03.09.2026",
     "uhrzeit": "20:00",
     "titel": "Hamburger Orgelsommer: „beflügelt – Original und Diminution“",
@@ -381,7 +392,7 @@
     "ort": "Marienkirche Bad Segeberg",
     "adresse": "Kirchpl. 5, 23795 Bad Segeberg",
     "link": "https://www.heinrich-rantzau.de/de/Mehr.php?event=9514&BackLink=Zur%C3%BCck&BackURL=/de/Veranstaltungen.php",
-    "beschreibung": "Szenischer Live-Podcast mit Einführung in die Renaissance, das Leben Rantzaus und die Orgelmusik dieser Zeit (auf der Winterhalter-Orgel); Tanzmusik von Michael Praetorius, HeinrichIsaac, Sweelinck, Orlando di Lasso und Giovanni Gastoldi",
+    "beschreibung": "Szenischer Live-Podcast mit Einführung in die Renaissance, das Leben Rantzaus und die Orgelmusik dieser Zeit; Tanzmusik von Michael Praetorius, HeinrichIsaac, Sweelinck, Orlando di Lasso und Giovanni Gastoldi",
     "beschreibung_en": ""
   },
   {
@@ -393,6 +404,17 @@
     "adresse": "Tarpenbekstraße 115, 20251 Hamburg",
     "link": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/wir-singen-seine-lieder-wir-hoeren-aus-seinem-leben-und-lauschen-der-musik-seiner-zeit/#c30374034",
     "beschreibung": "Zum 350. Todestag von Paul Gerhardt: Lieder von Paul Gerhardt und Musik seiner Zeit",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "12.09.2026",
+    "uhrzeit": "18:00",
+    "titel": "Vento della sera - Frühbarocke Musik aus Italien",
+    "ensemble": "Ensemble Vento della sera: Cathérine Renno (Zink), Nóra Kiszty (Blockflöten) und Carsten Lohff (Cembalo/Orgel)",
+    "ort": "Schloßkirche Ahrensburg",
+    "adresse": "Am Alten Markt 3, 22926 Ahrensburg",
+    "link": "https://www.kirche-ahrensburg.de/termine/1470994-vento-della-sera-fruhbarocke-musik-aus-italien",
+    "beschreibung": "Werke von Dario Castello, Giovanni Paolo Cima und Giuseppe Scarani",
     "beschreibung_en": ""
   },
   {
@@ -547,6 +569,17 @@
     "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/capriccio-stravagante-cappella-mariana-skip-sempe/27974",
     "beschreibung": "Musik der Renaissance: Werke von Pierre Sandrin, Diego Ortiz, Tielman Susato, Cipriano de Rore u.a.",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "18.11.2026",
+    "uhrzeit": "18:30",
+    "titel": "Bach-Wochen 2026, Kryptakonzert: Violine solo",
+    "ensemble": "Rachel Podger (Barock-Violine)",
+    "ort": "Krypta der Hauptkirche St. Michaelis",
+    "adresse": "Englische Planke 1, 20459 Hamburg",
+    "link": "https://www.st-michaelis.de/michel-musik/veranstaltungsreihen/kryptakonzerte",
+    "beschreibung": "Werke von J.S. Bach, Heinrich Ignaz Franz von Biber, Johann Paul von Westhoff u.a.",
     "beschreibung_en": ""
   },
   {

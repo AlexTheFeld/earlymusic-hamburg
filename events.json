@@ -374,6 +374,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "11.09.2026",
+    "uhrzeit": "19:00",
+    "titel": "Heinrich Rantzau und seine Zeit: Eine musikalisch-historische Zeitreise",
+    "ensemble": "Prof. Asmus J. Hintz, Andreas Maurer-Büntjen (Orgel), Luise Catenhusen (Blockflöte, Zink), Ensemble Capella Hamburgensis",
+    "ort": "Marienkirche Bad Segeberg",
+    "adresse": "Kirchpl. 5, 23795 Bad Segeberg",
+    "link": "https://www.heinrich-rantzau.de/de/Mehr.php?event=9514&BackLink=Zur%C3%BCck&BackURL=/de/Veranstaltungen.php",
+    "beschreibung": "Szenischer Live-Podcast mit Einführung in die Renaissance, das Leben Rantzaus und die Orgelmusik dieser Zeit (auf der Winterhalter-Orgel); Tanzmusik von Michael Praetorius, HeinrichIsaac, Sweelinck, Orlando di Lasso und Giovanni Gastoldi",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "12.09.2026",
     "uhrzeit": "18:00",
     "titel": "Ein Abend mit Paul Gerhardt",
@@ -382,6 +393,17 @@
     "adresse": "Tarpenbekstraße 115, 20251 Hamburg",
     "link": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/wir-singen-seine-lieder-wir-hoeren-aus-seinem-leben-und-lauschen-der-musik-seiner-zeit/#c30374034",
     "beschreibung": "Zum 350. Todestag von Paul Gerhardt: Lieder von Paul Gerhardt und Musik seiner Zeit",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "12.09.2026",
+    "uhrzeit": "19:00",
+    "titel": "Barocker Klang aus Venedig",
+    "ensemble": "Kammerchor Fontana d'Israel, Rachel Harris mit einem Instrumentalensemble auf historischen Instrumenten (Streicher, Zinken, Posaunen und Orgel), Isolde Kittel-Zerer (Leitung)",
+    "ort": "Christuskirche, Pinneberg",
+    "adresse": "Bahnhofstraße 2A, 25421 Pinneberg",
+    "link": "https://www.christuskirche-pinneberg.de/termine/1471755-nacht-der-kirchen",
+    "beschreibung": "Musik von Claudio Monteverdi, Giovanni Gabrieli, Heinrich Schütz und Michael Praetorius",
     "beschreibung_en": ""
   },
   {
@@ -447,7 +469,7 @@
     "ort": "Laeiszhalle, kleiner Saal",
     "adresse": "Johannes-Brahms-Platz 1, 20355 Hamburg",
     "link": "https://www.luisecatenhusen.de/flowfestival",
-    "beschreibung": "",
+    "beschreibung": "Hamburgische Festmusiken von Thomas Selle u.a.",
     "beschreibung_en": ""
   },
   {
@@ -469,7 +491,7 @@
     "ort": "MARKK - Museum am Rothenbaum",
     "adresse": "Rothenbaumchaussee 64, 20148 Hamburg",
     "link": "https://www.luisecatenhusen.de/flowfestival",
-    "beschreibung": "",
+    "beschreibung": "Die Tide und die Hamburger Natur: Werke von Georg Philipp Telemann u.a.",
     "beschreibung_en": ""
   },
   {
@@ -503,6 +525,17 @@
     "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/augsburger-domsingknaben-missa-salisburgensis/27642",
     "beschreibung": "Heinrich Ignaz Franz Biber: Missa Salisburgensis",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "14.11.2026",
+    "uhrzeit": "20:00",
+    "titel": "The Fairy Queen",
+    "ensemble": "Franz-Schubert-Chor Hamburg, Ensemble Schirokko, Chloe Lankshear (Sopran), Christiane Hrasky (Leitung)",
+    "ort": "Laeiszhalle, Großer Saal",
+    "adresse": "Johannes-Brahms-Platz, 20355 Hamburg",
+    "link": "https://www.elbphilharmonie.de/de/programm/purcell-the-fairy-queen/29154",
+    "beschreibung": "Henry Purcell: The Fairy Queen, Semi-Opera in fünf Akten",
     "beschreibung_en": ""
   },
   {
@@ -558,6 +591,17 @@
     "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/monteverdi-marienvesper-lionel-sow/28408",
     "beschreibung": "Claudio Monteverdi: \"Vespro della Beata Vergine\"",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "20.12.2026",
+    "uhrzeit": "18:00",
+    "titel": "Telemann in der Taverne",
+    "ensemble": "Ensemble I Zefirelli",
+    "ort": "Sasel-Haus",
+    "adresse": "Saseler Parkweg 3, 22393 Hamburg",
+    "link": "https://sasel-haus.de/veranstaltungen/telemann-in-der-taverne-ensemble-i-zefirelli/",
+    "beschreibung": "Werke von Georg Philipp Telemann, Reinhard Keiser, Silvius Leopold Weiss u.a.",
     "beschreibung_en": ""
   },
   {

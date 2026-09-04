@@ -376,12 +376,12 @@
   {
     "datum": "03.09.2026",
     "uhrzeit": "20:00",
-    "titel": "Hamburger Orgelsommer: „beflügelt – Original und Diminution“",
+    "titel": "Hamburger Orgelsommer: „beflügelt\" – Original und Diminution",
     "ensemble": "Andreas Kammenos (Blockflöte), Christian Weiherer (Orgel), Hamburger Ratsmusik",
     "ort": "Mariendom, Hamburg",
     "adresse": "Am Mariendom 1, 20099 Hamburg",
     "link": "https://www.mariendomhamburg.de/termin/hamburger-orgelsommer-20260903/",
-    "beschreibung": "Werke von Johann Adolf Hasse, Giovanni Domenico Rognoni, Georg Böhm, Heinrich Scheidemann und Girolamo dalla Casa",
+    "beschreibung": "Werke von Nicolaus Hasse, Georg Böhm, Heinrich Scheidemann, John Dowland, Aurelio Virgiliano u.a.",
     "beschreibung_en": ""
   },
   {
@@ -426,6 +426,17 @@
     "adresse": "Bahnhofstraße 2A, 25421 Pinneberg",
     "link": "https://www.christuskirche-pinneberg.de/termine/1471755-nacht-der-kirchen",
     "beschreibung": "Musik von Claudio Monteverdi, Giovanni Gabrieli, Heinrich Schütz und Michael Praetorius",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "13.09.2026",
+    "uhrzeit": "17:00",
+    "titel": "„beflügelt\" – Original und Diminution",
+    "ensemble": "Andreas Kammenos (Blockflöte), Christian Weiherer (Orgel), Hamburger Ratsmusik (Gambenconsort)",
+    "ort": "Heiligengeist-Kirche, Barmstedt",
+    "adresse": "Kirchenstraße 4, 25355 Barmstedt",
+    "link": "https://www.hamburger-ratsmusik.de/konzerte.html",
+    "beschreibung": "Werke von Dietrich Buxtehude, John Dowland, Nicolaus Hasse, Georg Böhm, Heinrich Scheidemann u.a.",
     "beschreibung_en": ""
   },
   {

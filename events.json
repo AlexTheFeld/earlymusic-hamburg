@@ -433,7 +433,7 @@
     "uhrzeit": "17:00",
     "titel": "„beflügelt\" – Original und Diminution",
     "ensemble": "Andreas Kammenos (Blockflöte), Christian Weiherer (Orgel), Hamburger Ratsmusik (Gambenconsort)",
-    "ort": "Heiligengeist-Kirche, Barmstedt",
+    "ort": "Heiligen-Geist-Kirche, Barmstedt",
     "adresse": "Kirchenstraße 4, 25355 Barmstedt",
     "link": "https://www.hamburger-ratsmusik.de/konzerte.html",
     "beschreibung": "Werke von Dietrich Buxtehude, John Dowland, Nicolaus Hasse, Georg Böhm, Heinrich Scheidemann u.a.",
@@ -462,6 +462,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "20.09.2026",
+    "uhrzeit": "16:00",
+    "titel": "Telemann, Hasse, Händel: Solo-Kantaten",
+    "ensemble": "Barockensemble Compagnia Cant' Amore Hamburg: Meike Ruhe (Viola da Gamba), Ulf Zastrau (Countertenor), Susanne Albrecht-Krebs (Blockflöte), Jochen Bachmann (Cembalo)",
+    "ort": "Kreuzkirche Ottensen",
+    "adresse": "Hohenzollernring 78a, 22763 Hamburg",
+    "link": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/solokantaten-von-telemann-haendel-und-hasse/#c30590055",
+    "beschreibung": "Kantaten und Arien von Georg Philipp Telemann, Johann Adolph Hasse und Georg Friedrich Händel",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "24.09.2026",
     "uhrzeit": "19:00",
     "titel": "Telemanns Freunde",
@@ -473,6 +484,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "25.09.2026",
+    "uhrzeit": "18:00",
+    "titel": "Telemann, Hasse, Händel: Solo-Kantaten",
+    "ensemble": "Barockensemble Compagnia Cant' Amore Hamburg: Meike Ruhe (Viola da Gamba), Ulf Zastrau (Countertenor), Susanne Albrecht-Krebs (Blockflöte), Jochen Bachmann (Cembalo)",
+    "ort": "Kreuzkirche Stellingen",
+    "adresse": "Wördemanns Weg 41, 22527 Eimsbüttel",
+    "link": "https://www.kirche-stellingen.com/",
+    "beschreibung": "Kantaten und Arien von Georg Philipp Telemann, Johann Adolph Hasse und Georg Friedrich Händel",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "26.09.2026",
     "uhrzeit": "18:00",
     "titel": "\"gestrichen, geblasen, gezupft\"",
@@ -481,6 +503,17 @@
     "adresse": "Ludolfstraße 66, 20249 Hamburg",
     "link": "https://www.kirchenmusik-nordkirche.de/veranstaltungs-detail?tx_nkcevent_main%5Buid%5D=1465335&cHash=976b4932085bcb6982f532ee0c2d78bf",
     "beschreibung": "Vielfältige barocke Kammermusik: Werke von Georg Friedrich Händel, Henry Purcell, Dario Castello, Johann Rosenmüller",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "27.09.2026",
+    "uhrzeit": "17:00",
+    "titel": "Telemann, Hasse, Händel: Solo-Kantaten",
+    "ensemble": "Barockensemble Compagnia Cant' Amore Hamburg: Meike Ruhe (Viola da Gamba), Ulf Zastrau (Countertenor), Susanne Albrecht-Krebs (Blockflöte), Jochen Bachmann (Cembalo)",
+    "ort": "Pau-Gerhardt-Kirche Norderstedt",
+    "adresse": "Altes Buckhörner Moor 16 -18, 22846 Norderstedt",
+    "link": "https://www.emmaus-norderstedt.de/b/konzert-mit-countertenor-47511956?utm_source=Widget+on+www.emmaus-norderstedt.de%2Fmusik%2Fkonzerte&utm_medium=Widgets",
+    "beschreibung": "Kantaten und Arien von Georg Philipp Telemann, Johann Adolph Hasse und Georg Friedrich Händel",
     "beschreibung_en": ""
   },
   {
@@ -602,6 +635,17 @@
     "adresse": "Englische Planke 1, 20459 Hamburg",
     "link": "https://www.st-michaelis.de/michel-musik/veranstaltungsreihen/kryptakonzerte",
     "beschreibung": "Werke von J.S. Bach, Heinrich Ignaz Franz von Biber, Johann Paul von Westhoff u.a.",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "28.11.2026",
+    "uhrzeit": "19:30",
+    "titel": "La Tournée de Monsieur Weichenberger",
+    "ensemble": "David Bergmüller (Laute)",
+    "ort": "Die Kleine Fleth-Philharmonie",
+    "adresse": "Westfleth 37, 21614 Buxtehude",
+    "link": "https://www.bandsintown.com/e/108861094?affil_code=&app_id=43e4becccb0b65d089ee07398be03c0e&came_from=700&utm_campaign=event&utm_medium=web&utm_source=widget",
+    "beschreibung": "Musik von Johann Georg Weichenberger (1691–1739)",
     "beschreibung_en": ""
   },
   {

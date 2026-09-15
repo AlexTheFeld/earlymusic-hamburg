@@ -451,6 +451,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "17.09.2026",
+    "uhrzeit": "19:30",
+    "titel": "Hameln Anno 1284",
+    "ensemble": "Norbert Rodenkirchen (mittelalterliche Querflöte)",
+    "ort": "St. Ansgar-Kapelle",
+    "adresse": "Schmilinskystr. 78, 20099 Hamburg",
+    "link": "https://www.mariendomhamburg.de/ansgarmusiken-konzert-hameln-anno-1284/",
+    "beschreibung": "Auf der Basis der Weisen des Fürsten Wizlaw III. von Rügen, altslawischer Tänze und vieler Quellen anderer Minnesängerwie erforscht Norbert Rodenkirchen die Frage: Wie mag die Musik des Rattenfängers wohl geklungen haben?",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "18.09.2026",
     "uhrzeit": "19:00",
     "titel": "Fonda Barroca",
@@ -459,6 +470,17 @@
     "adresse": "20359 Hamburg",
     "link": "https://www.eventbrite.de/e/listening-session-2-early-music-lab-tickets-1998635378218?aff=oddtdtcreator",
     "beschreibung": "Werke von Telemann, Blavet, Hotteterre, Forqueray und Parra",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "18.09.2026",
+    "uhrzeit": "19:00",
+    "titel": "Hommage à Paul Gerhardt (1607-1676)",
+    "ensemble": "AMARCORD",
+    "ort": "Hauptkirche St. Katharinen",
+    "adresse": "Katharinenkirchhof 1, 20457 Hamburg",
+    "link": "https://www.katharinen-hamburg.de/musik/terminkalender/ansicht/2026/9/18/2260-amarcord-hommage-a-paul-gerhardt-1607-1676/",
+    "beschreibung": "Musik von des Prez, Walter, Schütz, Hassler, J.M.Bach u.a.",
     "beschreibung_en": ""
   },
   {
@@ -525,6 +547,17 @@
     "adresse": "Peterstraße 31, 20355 Hamburg",
     "link": "https://www.komponistenquartier.de/de/aktuelles/veranstaltungen/2026/10_Oktober/2026.10.01_HTG_Short_Pieces.php",
     "beschreibung": "G.P. Telemann: Musik für und mit Kindern",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "06.10.2026",
+    "uhrzeit": "20:00",
+    "titel": "Escher & Bach",
+    "ensemble": "Geerten van de Wetering (Orgel), Elma Dekker (Sopran), Aus Greidanus (Monolog)",
+    "ort": "Hauptkirche St. Katharinen",
+    "adresse": "Katharinenkirchhof 1, 20457 Hamburg",
+    "link": "https://www.katharinen-hamburg.de/musik/terminkalender/ansicht/2026/10/6/2322-escherbach/",
+    "beschreibung": "Musik und Theater: Eine multidisziplinäre Aufführung zur Musik von J.S. Bach und dem Leben & Werk von Maurits Escher",
     "beschreibung_en": ""
   },
   {
@@ -624,6 +657,17 @@
     "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/capriccio-stravagante-cappella-mariana-skip-sempe/27974",
     "beschreibung": "Musik der Renaissance: Werke von Pierre Sandrin, Diego Ortiz, Tielman Susato, Cipriano de Rore u.a.",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "14.11.2026",
+    "uhrzeit": "19:00",
+    "titel": "Claudio Monteverdi: Marienvesper",
+    "ensemble": "AMARCORD, Ensemble Bell’arte Salzburg (Leitung: Annegret Siedel), Kantorei St. Katharinen, Andreas Fischer (Dirigent)",
+    "ort": "Hauptkirche St. Katharinen",
+    "adresse": "Katharinenkirchhof 1, 20457 Hamburg",
+    "link": "https://www.katharinen-hamburg.de/musik/terminkalender/ansicht/2026/11/14/2278-claudio-monteverdi-1567-1643-vespro-della-beata-vergine-marienvesper-1610/",
+    "beschreibung": "Claudio Monteverdi (1567-1643): Vespro della Beata Vergine (Marienvesper, 1610)",
     "beschreibung_en": ""
   },
   {
@@ -734,6 +778,17 @@
     "adresse": "Johannes-Brahms-Platz, 20355 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/purcell-the-fairy-queen/28648",
     "beschreibung": "",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "24.06.2027",
+    "uhrzeit": "",
+    "titel": "Auftakt TAMM 2027 - Tage Alter Musik Medingen",
+    "ensemble": "",
+    "ort": "Kloster Medingen (Klosterkirche)",
+    "adresse": "Klosterweg 1, 29549 Bad Bevensen",
+    "link": "",
+    "beschreibung": "Das Festival TAMM (Tage Alter Musik Medingen) findet vom 24. Juni bis 27. Juni in Bad Bevensen statt. Einzelheiten folgen",
     "beschreibung_en": ""
   }
 ]

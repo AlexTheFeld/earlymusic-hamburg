@@ -682,6 +682,28 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "26.11.2026",
+    "uhrzeit": "12:00",
+    "titel": "Johann Mattheson: Die Stimme der Gesellschaft. Opernaufführung für Schulkinder",
+    "ensemble": "Balthasar-Neumann-Solist:innen, Balthasar NOVA, Balthasar-Neumann-Orchester, Andreas Küppers (Leitung), Viktoria Holenok (Regie)",
+    "ort": "St. Pauli Theater",
+    "adresse": "Spielbudenpl. 29 - 30, 20359 Hamburg",
+    "link": "https://www.balthasar-neumann.com/de/die-stimme-der-gesellschaft/",
+    "beschreibung": "Opernpasticcio aus Werken von Johann Mattheson und seines Wirkungskreises",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "27.11.2026",
+    "uhrzeit": "19:00",
+    "titel": "Midnight Cats: Songs, Fancies and the Circle of Life",
+    "ensemble": "The Muses’ Fellows, Monika Mandelartz (Leitung)",
+    "ort": "St. Gertrud",
+    "adresse": "Immenhof 10, 22087 Hamburg",
+    "link": "https://www.the-muses-fellows.de/",
+    "beschreibung": "Populäre Musik des 17. Jahrhunderts, kombiniert mit eigenen Texten und Kompositionen: Balladen, Choräle, Folias u.v.m.",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "28.11.2026",
     "uhrzeit": "19:30",
     "titel": "La Tournée de Monsieur Weichenberger",
@@ -734,6 +756,39 @@
     "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/monteverdi-marienvesper-lionel-sow/28408",
     "beschreibung": "Claudio Monteverdi: \"Vespro della Beata Vergine\"",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "15.01.2027",
+    "uhrzeit": "19:30",
+    "titel": "Johann Mattheson: Die Stimme der Gesellschaft",
+    "ensemble": "Balthasar-Neumann-Solist:innen, Balthasar NOVA, Balthasar-Neumann-Orchester, Andreas Küppers (Leitung), Viktoria Holenok (Regie)",
+    "ort": "St. Pauli Theater",
+    "adresse": "Spielbudenpl. 29 - 30, 20359 Hamburg",
+    "link": "https://www.balthasar-neumann.com/de/die-stimme-der-gesellschaft/",
+    "beschreibung": "Opernpasticcio aus Werken von Johann Mattheson und seines Wirkungskreises",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "16.01.2027",
+    "uhrzeit": "19:30",
+    "titel": "Johann Mattheson: Die Stimme der Gesellschaft",
+    "ensemble": "Balthasar-Neumann-Solist:innen, Balthasar NOVA, Balthasar-Neumann-Orchester, Andreas Küppers (Leitung), Viktoria Holenok (Regie)",
+    "ort": "St. Pauli Theater",
+    "adresse": "Spielbudenpl. 29 - 30, 20359 Hamburg",
+    "link": "https://www.balthasar-neumann.com/de/die-stimme-der-gesellschaft/",
+    "beschreibung": "Opernpasticcio aus Werken von Johann Mattheson und seines Wirkungskreises",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "17.01.2027",
+    "uhrzeit": "18:00",
+    "titel": "Johann Mattheson: Die Stimme der Gesellschaft",
+    "ensemble": "Balthasar-Neumann-Solist:innen, Balthasar NOVA, Balthasar-Neumann-Orchester, Andreas Küppers (Leitung), Viktoria Holenok (Regie)",
+    "ort": "St. Pauli Theater",
+    "adresse": "Spielbudenpl. 29 - 30, 20359 Hamburg",
+    "link": "https://www.balthasar-neumann.com/de/die-stimme-der-gesellschaft/",
+    "beschreibung": "Opernpasticcio aus Werken von Johann Mattheson und seines Wirkungskreises",
     "beschreibung_en": ""
   },
   {

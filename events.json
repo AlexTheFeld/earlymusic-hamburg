@@ -616,6 +616,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "11.10.2026",
+    "uhrzeit": "18:00",
+    "titel": "Barockes Dresden. Nordischer Klang. Meisterwerke von Bach, Zelenka u.a.",
+    "ensemble": "Sophia Körber (Sopran), Anna Lubrich (Sopran), Julie Caffier (Alt), Timo Rößner (Tenor), Johann-Sebastian-Bach-Chor der Tabita-Kirchengemeinde, Eva Overlack (Leitung)",
+    "ort": "Kreuzkirche Ottensen",
+    "adresse": "Hohenzollernring 78a, 22763 Hamburg",
+    "link": "https://www.kirchenmusik-nordkirche.de/veranstaltungs-detail?tx_nkcevent_main%5Buid%5D=1471081&cHash=2d1e470e4ffede15aba98017c5a1978e",
+    "beschreibung": "Werke von J. Zelenka, J. S. Bach, J. D. Heinichen u.a.",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "16.10.2026",
     "uhrzeit": "19:30",
     "titel": "Early Music FLOW Festival Hamburg: Abschlusskonzert á 17",
@@ -671,6 +682,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "11.11.2026",
+    "uhrzeit": "19:30",
+    "titel": "Georg Friedrich Händels Musikalische Werkstatt",
+    "ensemble": "Studierende der HfMT, Isolde Kittel-Zerer (Leitung)",
+    "ort": "Lichthof der Staats- und Universitätsbibliothek Hamburg",
+    "adresse": "Von-Melle-Park 3, 20146 Hamburg",
+    "link": "https://www.hfmt-hamburg.de/hochschule/aktuelles/veranstaltungen/13446-2026-11-11-moderiertes-konzert-zum-200-geburtstag-von-friedrich-chrysander",
+    "beschreibung": "Moderiertes Konzert zum 200. Geburtstag von Friedrich Chrysander: G. F. Händel, Auszüge aus Opern und der Wassermusik",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "12.11.2026",
     "uhrzeit": "19:30",
     "titel": "\"Flow my tears\"",
@@ -712,6 +734,17 @@
     "adresse": "Werner-Otto-Straße 21-27, 22179 Hamburg",
     "link": "https://www.balthasar-neumann.com/de/die-stimme-der-gesellschaft/",
     "beschreibung": "Opernpasticcio aus Werken von Johann Mattheson und seines Wirkungskreises",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "26.11.2026",
+    "uhrzeit": "19:30",
+    "titel": "Studiokonzert Cembalo und Blockflöte",
+    "ensemble": "Klassen Prof. van Delft und Prof. Han Tol",
+    "ort": "Hochschule für Musik und Theater, Orchesterstudio",
+    "adresse": "Harvestehuder Weg 12, 20148 Hamburg",
+    "link": "https://www.hfmt-hamburg.de/hochschule/aktuelles/veranstaltungen/13437-2026-11-26-studiokonzert-cembalo-und-blockfloete",
+    "beschreibung": "Hinweis: Anmeldung erfoderlich",
     "beschreibung_en": ""
   },
   {
@@ -781,6 +814,17 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "27.12.2026",
+    "uhrzeit": "17:00",
+    "titel": "J.S. Bach: Weihnachtsoratorium",
+    "ensemble": "Kantorei Klosterkirche Uetersen, Ensemble Schirokko Hamburg, Eberhard Kneifel (Leitung)",
+    "ort": "Klosterkirche Uetersen",
+    "adresse": "Kirchenstraße 10, 25436 Uetersen",
+    "link": "https://ensemble-schirokko.de/j-s-bach-weihnachtsoratorium-kantaten-1-3-6-in-uetersen/",
+    "beschreibung": "J.S. Bach, Weihnachtsoratorium, Kantaten 1, 3 und 6",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "15.01.2027",
     "uhrzeit": "19:30",
     "titel": "Johann Mattheson: Die Stimme der Gesellschaft",
@@ -833,6 +877,17 @@
     "adresse": "Johannes-Brahms-Platz, 20355 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/balthasar-neumann-orchester/28793",
     "beschreibung": "",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "25.02.2027",
+    "uhrzeit": "19:00",
+    "titel": "Cembalo-Abend: Konzertexamen von Jing Tang",
+    "ensemble": "Jing Tang (Cembalo)",
+    "ort": "Hochschule für Musik und Theater, Mendelssohn-Saal",
+    "adresse": "Harvestehuder Weg 12, 20148 Hamburg",
+    "link": "https://www.hfmt-hamburg.de/hochschule/aktuelles/veranstaltungen/13449-2027-02-25-cembalo-abend",
+    "beschreibung": "Hinweis: Anmeldung erforderlich",
     "beschreibung_en": ""
   },
   {

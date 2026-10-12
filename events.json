@@ -649,6 +649,28 @@
     "beschreibung_en": ""
   },
   {
+    "datum": "23.10.2026",
+    "uhrzeit": "16:30",
+    "titel": "Die europäische Laute und die arabische Oud",
+    "ensemble": "Joachim Held, Anwar Thalij",
+    "ort": "Museum für Kunst und Gewerbe",
+    "adresse": "Steintorpl. 1, 20099 Hamburg",
+    "link": "https://www.mkg-hamburg.de/veranstaltungen/und-ewig-lockt-musik-symposium-ehren-friedemann-hellwig",
+    "beschreibung": "Konzert im Rahmen des Symposiums zu Ehren von Friedemann Hellwig: Und ewig lockt die Musik",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "24.10.2026",
+    "uhrzeit": "16:00",
+    "titel": "Hamburgs Musikleben in der Barockzeit – Instrumente von Joachim Tielke und Christian Zell",
+    "ensemble": "Thomas Pietsch (Violine), Hille Perl (Viola da gamba), Menno van Delft (Cembalo)",
+    "ort": "Museum für Kunst und Gewerbe",
+    "adresse": "Steintorpl. 1, 20099 Hamburg",
+    "link": "https://www.mkg-hamburg.de/veranstaltungen/und-ewig-lockt-musik-symposium-ehren-friedemann-hellwig",
+    "beschreibung": "Konzert im Rahmen des Symposiums zu Ehren von Friedemann Hellwig: Und ewig lockt die Musik",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "02.11.2026",
     "uhrzeit": "20:00",
     "titel": "Missa Salisburgensis",

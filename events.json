@@ -727,6 +727,17 @@
   },
   {
     "datum": "14.11.2026",
+    "uhrzeit": "18:00",
+    "titel": "Thomas Pietsch - Violine solo",
+    "ensemble": "Thomas Pietsch (Violine)",
+    "ort": "Hauptkirche St. Petri",
+    "adresse": "Bei der Petrikirche 2, 20095 Hamburg",
+    "link": "https://www.sankt-petri.de/veranstaltungen-detail/thomas-pietsch-violine-solo",
+    "beschreibung": "J.S. Bach, Nicola Matteis, Thomas Baltzar, G.P. Telemann und H.I.F. Biber",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "14.11.2026",
     "uhrzeit": "19:00",
     "titel": "Claudio Monteverdi: Marienvesper",
     "ensemble": "AMARCORD, Ensemble Bell’arte Salzburg (Leitung: Annegret Siedel), Kantorei St. Katharinen, Andreas Fischer (Dirigent)",

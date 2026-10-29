@@ -298,7 +298,7 @@ def generate_event_page(e, slug, is_past):
         f'<div class="concert-description">{esc(e["beschreibung"])}</div>'
         if e['beschreibung'] else ''
     )
-    if e['link']:
+    if e['link'] and not is_past:
         link_inner = f'<a href="{esc(e["link"])}" target="_blank" rel="noopener noreferrer">Mehr Infos →</a>'
         link_html = f'<div class="concert-more-link">{link_inner}</div>'
     else:

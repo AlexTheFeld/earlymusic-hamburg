@@ -30,8 +30,8 @@
       --sans:'Outfit',system-ui,sans-serif;
       --image-w:170px;--content-w:720px
     }
-    body{background:var(--bg-side);color:var(--text);font-family:var(--sans);font-weight:300;line-height:1.6;min-height:100vh}
-    .page-frame{max-width:calc(var(--content-w) + 2 * var(--image-w));margin:0 auto;background:var(--bg);min-height:100vh}
+    body{background:var(--bg-side);color:var(--text);font-family:var(--sans);font-weight:300;line-height:1.6}
+    .page-frame{max-width:calc(var(--content-w) + 2 * var(--image-w));margin:0 auto;background:var(--bg);min-height:100vh;display:flex;flex-direction:column}
     .header-outer{border-bottom:1px solid var(--border)}
     header{display:flex;align-items:flex-end;background:#EDE7D9}
     .relief-img{width:var(--image-w);flex-shrink:0;display:block;opacity:.92}
@@ -40,8 +40,8 @@
     .site-title a{text-decoration:none;color:inherit}
     .header-rule{width:40px;height:1px;background:var(--accent);margin:.65rem auto .55rem}
     .site-subtitle{font-family:var(--sans);font-weight:300;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted)}
-    main{max-width:var(--content-w);margin:0 auto;padding:2.5rem 2rem 5rem}
-    .back-link{display:inline-block;margin-bottom:2rem;font-family:var(--sans);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);text-decoration:none}
+    main{max-width:var(--content-w);margin:0 auto;padding:2.5rem 2rem 3rem;flex:1}
+    .back-link{display:inline-block;margin-bottom:2.8rem;font-family:var(--sans);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);text-decoration:none}
     .back-link:hover{color:var(--accent)}
     .concert-card{display:grid;grid-template-columns:3.4rem 1fr;gap:0 1.2rem;padding:1.1rem .6rem;border:1px solid var(--border);background:var(--bg-card);border-radius:4px}
     .date-box{text-align:center;padding-top:.15rem}
@@ -63,9 +63,13 @@
     .concert-more-link a:hover{text-decoration:underline}
     .past-notice{margin-top:1.5rem;padding:.9rem 1.2rem;border:1px solid var(--border);border-radius:4px;font-size:.82rem;color:var(--text-muted);font-style:italic}
     .footer-outer{border-top:1px solid var(--border)}
-    footer{max-width:var(--content-w);margin:0 auto;padding:1.4rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.78rem;color:var(--text-muted)}
+    footer{max-width:var(--content-w);margin:0 auto;padding:.85rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.75rem;color:var(--text-muted)}
     footer a{color:var(--text-muted);text-decoration:none}
     footer a:hover{color:var(--accent)}
+    .footer-links{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+    .footer-social{display:flex;align-items:center;gap:.6rem;margin-left:.6rem}
+    .footer-social a{display:flex;align-items:center;color:var(--accent);opacity:.75;line-height:1;transition:opacity .15s}
+    .footer-social a:hover{opacity:1}
     @media(max-width:640px){
       .relief-img{display:none}
       .header-center{padding:1.8rem 1.5rem 1.4rem}
@@ -115,14 +119,20 @@
 <div class="footer-outer">
 <footer>
   <span>Early Music Hamburg · Alte Musik in Hamburg</span>
-  <span>
+  <span class="footer-links">
     <a href="../impressum.html">Impressum</a> ·
     <a href="../datenschutz.html">Datenschutz</a> ·
     <a href="mailto:hello@earlymusic-hamburg.de">hello@earlymusic-hamburg.de</a>
+    <span class="footer-social">
+      <a href="https://www.instagram.com/earlymusic.hamburg/" aria-label="Instagram" title="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://www.facebook.com/earlymusic.hamburg" aria-label="Facebook" title="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+    </span>
   </span>
 </footer>
-</div>
-
 </div>
 </body>
 </html>

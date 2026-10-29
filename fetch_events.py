@@ -363,7 +363,7 @@ def generate_event_page(e, slug, is_past):
 
   <div class="promo-section">
     <p class="promo-text">Ihr Konzert fehlt? Termin mitteilen.</p>
-    <a class="promo-btn" href="{BASE_URL}/">Termin eintragen</a>
+    <a class="promo-btn" href="mailto:hello@earlymusic-hamburg.de">Termin eintragen</a>
   </div>
 </main>
 

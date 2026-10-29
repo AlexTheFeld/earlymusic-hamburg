@@ -1,0 +1,9 @@
+# DeepL API-Key – niemals ins Repo committen!
+deepl_key.txt
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]

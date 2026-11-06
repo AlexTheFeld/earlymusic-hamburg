@@ -698,7 +698,7 @@
     "titel": "The Fairy Queen",
     "ensemble": "Franz-Schubert-Chor Hamburg, Ensemble Schirokko, Chloe Lankshear (Sopran), Christiane Hrasky (Leitung)",
     "ort": "Laeiszhalle, Großer Saal",
-    "adresse": "Johannes-Brahms-Platz, 20355 Hamburg",
+    "adresse": "Johannes-Brahms-Platz 1, 20355 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/purcell-the-fairy-queen/29154",
     "beschreibung": "Henry Purcell: The Fairy Queen, Semi-Opera in fünf Akten",
     "beschreibung_en": "Henry Purcell: The Fairy Queen, a semi-opera in five acts"
@@ -708,8 +708,8 @@
     "uhrzeit": "20:00",
     "titel": "\"Doulce mémoire\"",
     "ensemble": "Capriccio Stravagante (Leitung: Skip Sempé), Cappella Mariana",
-    "ort": "Elbphilharmonie, Grosser Saal",
-    "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
+    "ort": "Laeiszhalle, Grosser Saal",
+    "adresse": "Johannes-Brahms-Platz 1, 20355 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/capriccio-stravagante-cappella-mariana-skip-sempe/27974",
     "beschreibung": "Musik der Renaissance: Werke von Pierre Sandrin, Diego Ortiz, Tielman Susato, Cipriano de Rore u.a.",
     "beschreibung_en": "Renaissance music: works by Pierre Sandrin, Diego Ortiz, Tielman Susato, Cipriano de Rore and others"
@@ -778,7 +778,7 @@
     "adresse": "Englische Planke 1, 20459 Hamburg",
     "link": "https://www.st-michaelis.de/michel-musik/veranstaltungsreihen/kryptakonzerte",
     "beschreibung": "Werke von J.S. Bach, Heinrich Ignaz Franz von Biber, Johann Paul von Westhoff u.a.",
-    "beschreibung_en": "Works by J.S. Bach, Heinrich Ignaz Franz von Biber, Johann Paul von Westhoff and others."
+    "beschreibung_en": "Works by J.S. Bach, Heinrich Ignaz Franz von Biber, Johann Paul von Westhoff and others"
   },
   {
     "datum": "26.11.2026",
@@ -866,7 +866,7 @@
     "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/monteverdi-marienvesper-lionel-sow/28408",
     "beschreibung": "Claudio Monteverdi: \"Vespro della Beata Vergine\"",
-    "beschreibung_en": "Claudio Monteverdi: \"Vespro della Beata Vergine\""
+    "beschreibung_en": "Claudio Monteverdi: ‘Vespro della Beata Vergine’"
   },
   {
     "datum": "27.12.2026",
@@ -910,7 +910,7 @@
     "adresse": "Spielbudenpl. 29 - 30, 20359 Hamburg",
     "link": "https://www.balthasar-neumann.com/de/die-stimme-der-gesellschaft/",
     "beschreibung": "Opernpasticcio aus Werken von Johann Mattheson und seines Wirkungskreises",
-    "beschreibung_en": "An opera pastiche based on works by Johann Mattheson and those associated with him"
+    "beschreibung_en": "An opera pastiche based on works by Johann Mattheson and his circle"
   },
   {
     "datum": "20.12.2026",

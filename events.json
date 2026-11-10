@@ -924,6 +924,28 @@
     "beschreibung_en": "Works by Georg Philipp Telemann, Reinhard Keiser, Silvius Leopold Weiss and others"
   },
   {
+    "datum": "19.01.2027",
+    "uhrzeit": "19:30",
+    "titel": "Festkonzert des Studio für Alte Musik",
+    "ensemble": "",
+    "ort": "Museum für Kunst und Gewerbe",
+    "adresse": "Steintorpl. 1, 20099 Hamburg",
+    "link": "",
+    "beschreibung": "Details werden noch bekanntgegeben",
+    "beschreibung_en": "Further details will be announced in due course"
+  },
+  {
+    "datum": "20.01.2027",
+    "uhrzeit": "19:00",
+    "titel": "Harburger Rathauskonzerte „Stars von morgen“: Alte Musik",
+    "ensemble": "Kammermusikklasse Prof. Menno van Delft, Cembalo und Blockflöte",
+    "ort": "Harburger Rathaus (Großer Saal)",
+    "adresse": "Harburger Rathausplatz 1, 21073 Hamburg",
+    "link": "https://www.harburger-land.de/veranstaltungen/harburger-rathauskonzerte-stars-von-morgen-alte-musik-kammermusikklasse-prof-men",
+    "beschreibung": "",
+    "beschreibung_en": ""
+  },
+  {
     "datum": "21.01.2027",
     "uhrzeit": "20:00",
     "titel": "Bach: Brandenburgische Konzerte",
@@ -931,6 +953,17 @@
     "ort": "Laeiszhalle, Großer Saal",
     "adresse": "Johannes-Brahms-Platz, 20355 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/balthasar-neumann-orchester/28793",
+    "beschreibung": "",
+    "beschreibung_en": ""
+  },
+  {
+    "datum": "14.02.2027",
+    "uhrzeit": "16:00",
+    "titel": "Abschlusskonzert des Streicherworkshops mit Bernhard Forck",
+    "ensemble": "Studierende der HfMT",
+    "ort": "Hochschule für Musik und Theater, Fanny-Hensel-Saal",
+    "adresse": "Harvestehuder Weg 12, 20148 Hamburg",
+    "link": "",
     "beschreibung": "",
     "beschreibung_en": ""
   },

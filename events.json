@@ -382,7 +382,7 @@
     "adresse": "Am Mariendom 1, 20099 Hamburg",
     "link": "https://www.mariendomhamburg.de/termin/hamburger-orgelsommer-20260903/",
     "beschreibung": "Werke von Nicolaus Hasse, Georg Böhm, Heinrich Scheidemann, John Dowland, Aurelio Virgiliano u.a.",
-    "beschreibung_en": "Works by Nicolaus Hasse, Georg Böhm, Heinrich Scheidemann, John Dowland, Aurelio Virgiliano and others"
+    "beschreibung_en": "Works by Nicolaus Hasse, Georg Böhm, Heinrich Scheidemann, John Dowland, Aurelio Virgiliano and others."
   },
   {
     "datum": "11.09.2026",
@@ -635,7 +635,7 @@
     "adresse": "Katharinenkirchhof 1, 20457 Hamburg",
     "link": "https://www.katharinen-hamburg.de/aktuelles/aus-der-gemeinde/ansicht/2026/10/16/2261-abschlusskonzert-des-early-music-flow-festivals-mehrchoerige-musik-des-hamburger-fruehbarock/",
     "beschreibung": "Mehrchörige Musik des Hamburger Frühbarock: Thomas Selle, Johann Schop, Hieronymus Praetorius u.a.",
-    "beschreibung_en": "Polyphonic music of the early Baroque period in Hamburg: Thomas Selle, Johann Schop, Hieronymus Praetorius and others."
+    "beschreibung_en": "Polyphonic music of the early Baroque period in Hamburg: Thomas Selle, Johann Schop, Hieronymus Praetorius and others"
   },
   {
     "datum": "19.10.2026",
@@ -784,12 +784,12 @@
     "datum": "21.11.2026",
     "uhrzeit": "18:00",
     "titel": "Musica pro defunctis",
-    "ensemble": "",
-    "ort": "",
-    "adresse": "",
-    "link": "",
-    "beschreibung": "",
-    "beschreibung_en": ""
+    "ensemble": "Lea Völzer (Sopran), Tuuli Korte (Violine und Sopran), Leon Kopecny (Orgel)",
+    "ort": "St. Johannes Ahrensburg",
+    "adresse": "Rudolf-Kinau-Straße 19, 22926 Ahrensburg",
+    "link": "https://www.kirche-ahrensburg.de/termine/1472377-musica-pro-defunctis",
+    "beschreibung": "Musik zum Ewigkeitssonntag: Werke von Heinrich Schütz, Georg Philipp Telemann u.a.",
+    "beschreibung_en": "Music for Eternity Sunday: works by Heinrich Schütz, Georg Philipp Telemann and others"
   },
   {
     "datum": "26.11.2026",

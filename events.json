@@ -692,7 +692,7 @@
     "adresse": "Katharinenkirchhof 1, 20457 Hamburg",
     "link": "https://www.katharinen-hamburg.de/aktuelles/aus-der-gemeinde/ansicht/2026/10/16/2261-abschlusskonzert-des-early-music-flow-festivals-mehrchoerige-musik-des-hamburger-fruehbarock/",
     "beschreibung": "Mehrchörige Musik des Hamburger Frühbarock: Thomas Selle, Johann Schop, Hieronymus Praetorius u.a.",
-    "beschreibung_en": "Polyphonic music of the early Baroque period in Hamburg: Thomas Selle, Johann Schop, Hieronymus Praetorius and others",
+    "beschreibung_en": "Polyphonic music of the early Baroque period in Hamburg: Thomas Selle, Johann Schop, Hieronymus Praetorius and others.",
     "slug": "2026-10-16-early-music-flow-festivalensemble"
   },
   {
@@ -968,7 +968,7 @@
     "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
     "link": "https://www.elbphilharmonie.de/de/programm/monteverdi-marienvesper-lionel-sow/28408",
     "beschreibung": "Claudio Monteverdi: \"Vespro della Beata Vergine\"",
-    "beschreibung_en": "Claudio Monteverdi: \"Vespro della Beata Vergine\"",
+    "beschreibung_en": "Claudio Monteverdi: ‘Vespro della Beata Vergine’",
     "slug": "2026-12-16-balthasarneumannchor-und-orchester"
   },
   {
@@ -1016,7 +1016,7 @@
     "adresse": "Spielbudenpl. 29 - 30, 20359 Hamburg",
     "link": "https://www.balthasar-neumann.com/de/die-stimme-der-gesellschaft/",
     "beschreibung": "Opernpasticcio aus Werken von Johann Mattheson und seines Wirkungskreises",
-    "beschreibung_en": "An opera pastiche based on works by Johann Mattheson and his circle",
+    "beschreibung_en": "An opera pastiche based on works by Johann Mattheson and those associated with him",
     "slug": "2027-01-17-balthasarneumannsolistinnen"
   },
   {
@@ -1102,6 +1102,18 @@
     "beschreibung": "",
     "beschreibung_en": "",
     "slug": "2027-02-14-studierende-der-hfmt"
+  },
+  {
+    "datum": "19.02.2027",
+    "uhrzeit": "19:30",
+    "titel": "la festa musicale: WahnsinnsMusik",
+    "ensemble": "Magdalene Harer (Sopran), Barockensemble la festa musicale",
+    "ort": "Elbphilharmonie, Kleiner Saal",
+    "adresse": "Platz der Deutschen Einheit 4, 20457 Hamburg",
+    "link": "https://www.elbphilharmonie.de/de/programm/la-festa-musicale/29370",
+    "beschreibung": "Werke von Antonio Vivaldi, Georg Friedrich Händel und Giuseppe Valentini",
+    "beschreibung_en": "Works by Antonio Vivaldi, George Frideric Handel and Giuseppe Valentini",
+    "slug": "2027-02-19-magdalene-harer"
   },
   {
     "datum": "25.02.2027",
